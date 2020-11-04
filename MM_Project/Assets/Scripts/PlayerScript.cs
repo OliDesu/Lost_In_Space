@@ -13,6 +13,10 @@ public class PlayerScript : MonoBehaviour
     protected Joystick joystick;
     protected JoyButtonScript joyButton;
 
+    float movementSpeed = 5f;
+
+    float bonusTime = 10.0f;
+
     protected bool shoot;
     // Start is called before the first frame update
     void Start()
@@ -28,7 +32,7 @@ public class PlayerScript : MonoBehaviour
         var rigidbody = GetComponent<Rigidbody2D>();
 
 
-        rigidbody.velocity = new Vector2(joystick.Horizontal * 5f + Input.GetAxis("Horizontal") * 5f, joystick.Vertical * 5f + Input.GetAxis("Vertical") * 5f);
+        rigidbody.velocity = new Vector2(joystick.Horizontal * movementSpeed + Input.GetAxis("Horizontal") * movementSpeed, joystick.Vertical * movementSpeed + Input.GetAxis("Vertical") * movementSpeed);
 
         if (rigidbody.transform.position.x >= 10f){
             rigidbody.transform.position = new Vector2(10f, rigidbody.transform.position.y);
@@ -60,11 +64,36 @@ public class PlayerScript : MonoBehaviour
         {
             shoot = false;
         }
+
+        if (movementSpeed != 5f)
+        {
+            bonusTime -= Time.deltaTime;
+
+            if (bonusTime <= 0.0f)
+            {
+                EndSpeedBonus();
+            }
+        }
+
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
+
+        if (other.name == "SpeedBonus(Clone)")
+        {
+            SpeedBonusScript speedBonus = other.GetComponent<SpeedBonusScript>();
+
+            if (speedBonus != null)
+            {
+                movementSpeed += 3f;
+                FindObjectOfType<SpeedBonusScript>().PickUp();
+
+            }
+        }
+
         alien alien = other.GetComponent<alien>();
+        
         if (alien != null)
         {
             FindObjectOfType<GameManager>().EndGame();
@@ -76,5 +105,10 @@ public class PlayerScript : MonoBehaviour
         Vector2 shotPos = target.position;
         shotPos += new Vector2(0, .4f);
         Instantiate(shot, shotPos, Quaternion.identity);
+    }
+
+    public void EndSpeedBonus()
+    {
+        movementSpeed -= 3f;
     }
 }

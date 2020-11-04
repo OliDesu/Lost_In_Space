@@ -11,6 +11,8 @@ public class alien : MonoBehaviour
 
     Rigidbody2D rigidbody;
 
+    public GameObject speedBonus;
+
 
     // Start is called before the first frame update
     void Start()
@@ -41,6 +43,13 @@ public class alien : MonoBehaviour
 
     public void Die()
     {
+        int spawnChance = Random.Range(1,12);
+
+        if (spawnChance == 10)
+        {
+            Vector2 pos = rigidbody.position;
+            Instantiate(speedBonus, pos, Quaternion.identity);
+        }
         Destroy(gameObject);
     }
 
