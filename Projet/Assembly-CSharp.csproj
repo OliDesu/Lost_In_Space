@@ -36,9 +36,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\PlacementIndicator.cs" />
      <Compile Include="Assets\Scripts\SpawnManager.cs" />
-     <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\JoyButtonScript.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\SpeedBonusScript.cs" />
+     <Compile Include="Assets\Scripts\shotFire.cs" />
+     <Compile Include="Assets\Scripts\alien.cs" />
+     <Compile Include="Assets\Scripts\SpawnerScript.cs" />
+     <Compile Include="Assets\Scripts\TextScript.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -246,350 +261,350 @@
     <Reference Include="UnityEditor.iOS.Extensions.Common">
         <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
-    <Reference Include="netstandard">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Win32.Primitives">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.AppContext">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.Concurrent">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.NonGeneric">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.Specialized">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.EventBasedAsync">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.Primitives">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.TypeConverter">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Console">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data.Common">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Contracts">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Debug">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.FileVersionInfo">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Process">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.StackTrace">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.TextWriterTraceListener">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Tools">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.TraceSource">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Tracing">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Drawing.Primitives">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Dynamic.Runtime">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization.Calendars">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization.Extensions">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression.ZipFile">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.DriveInfo">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.Primitives">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.Watcher">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.IsolatedStorage">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.MemoryMappedFiles">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Pipes">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.UnmanagedMemoryStream">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Expressions">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Parallel">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Queryable">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.NameResolution">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.NetworkInformation">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Ping">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Primitives">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Requests">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Security">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Sockets">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebHeaderCollection">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebSockets.Client">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebSockets">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ObjectModel">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Extensions">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Primitives">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.Reader">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.ResourceManager">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.Writer">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.VisualC">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Extensions">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Handles">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Numerics">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Formatters">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Json">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Primitives">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Xml">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Claims">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Algorithms">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Csp">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Encoding">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Primitives">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.X509Certificates">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Principal">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.SecureString">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Encoding.Extensions">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Encoding">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.RegularExpressions">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Overlapped">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks.Parallel">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Thread">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.ThreadPool">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Timer">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ValueTuple">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.ReaderWriter">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XDocument">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XPath.XDocument">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XPath">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XmlDocument">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XmlSerializer">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics.Vectors">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.Composition">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Core">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Drawing">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression.FileSystem">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ServiceModel.Web">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Transactions">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Windows">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Linq">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Serialization">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+    <Reference Include="mscorlib">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="System">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
     </Reference>
-    <Reference Include="mscorlib">
-        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+    <Reference Include="System.Core">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+        <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

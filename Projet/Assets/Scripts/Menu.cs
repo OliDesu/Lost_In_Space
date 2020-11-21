@@ -19,4 +19,9 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("Main Menu");
     }
+
+    public void PlayARGame()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
 }
