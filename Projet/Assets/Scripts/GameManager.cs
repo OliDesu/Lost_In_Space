@@ -16,6 +16,16 @@ public class GameManager : MonoBehaviour
     {
         score = 0;
         //lives = 3;
+
+        if (Input.deviceOrientation == DeviceOrientation.LandscapeLeft){
+            Screen.orientation = ScreenOrientation.LandscapeLeft;
+        }
+    }
+
+    private void Update() {
+        if (Input.deviceOrientation == DeviceOrientation.LandscapeLeft){
+            Screen.orientation = ScreenOrientation.LandscapeLeft;
+        }
     }
 
     public void UpdateScore()
