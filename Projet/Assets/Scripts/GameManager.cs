@@ -11,6 +11,11 @@ public class GameManager : MonoBehaviour
     bool gameHasEnded = false;
 
     public static List<GameObject> aliens = new List<GameObject>();
+    public static List<GameObject> speedBonus = new List<GameObject>();
+    public static List<GameObject> slowAliens = new List<GameObject>();
+    public static List<GameObject> destroyRandom = new List<GameObject>();
+
+    public AudioSource EndAudioSource;
 
     public float leftBorder;
     public float rightBorder;
@@ -19,6 +24,7 @@ public class GameManager : MonoBehaviour
 
     public void Start()
     {
+        EndAudioSource = GetComponent<AudioSource>();
         score = 0;
         //lives = 3;
 
@@ -65,7 +71,7 @@ public class GameManager : MonoBehaviour
     // If you wish to add lives //
     //////////////////////////////
 
-    /*public void UpdateLives()      
+    /*public void UpdateLives()
     {
         lives--;
         if (lives <= 0)
@@ -81,6 +87,7 @@ public class GameManager : MonoBehaviour
             gameHasEnded = true;
             Invoke("Restart", 0.5f);
         }
+        EndAudioSource.Play();
     }
 
     void Restart()
