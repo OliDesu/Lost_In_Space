@@ -24,7 +24,8 @@ public class SpawnManager : MonoBehaviour
         {
 
             GameObject cube = Instantiate(objectToSpawn, placementIndicator.transform.position, placementIndicator.transform.rotation);
-
+            cube.SetActive(true);
+            
             nextSpawn = Time.time + spawnRate;
 
         }

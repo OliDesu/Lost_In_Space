@@ -55,10 +55,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\KillOnTouch.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\PlacementIndicator.cs" />
      <Compile Include="Assets\Scripts\SpawnManager.cs" />
-     <Compile Include="Assets\KillOnTouch.cs" />
+     <Compile Include="Assets\MainScript.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

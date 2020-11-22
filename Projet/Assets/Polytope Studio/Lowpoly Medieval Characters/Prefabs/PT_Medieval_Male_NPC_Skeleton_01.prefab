@@ -621,15 +621,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1948329710155509286}
-  m_LocalRotation: {x: -0.00034904052, y: 0, z: 0, w: 0.99999994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.12, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1948329710155936320}
   - {fileID: 1948329710155936260}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.04, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1948329710165024164
 Animator:
   serializedVersion: 3
@@ -643,7 +643,7 @@ Animator:
   m_Controller: {fileID: 0}
   m_CullingMode: 2
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -661,6 +661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f357d12028cd3703a95e0783da5d0b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lookAtPoint: {x: 0, y: 0, z: 0}
 --- !u!1 &1948329710155509288
 GameObject:
   m_ObjectHideFlags: 0

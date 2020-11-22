@@ -139,7 +139,7 @@
 78-->[:unityLibrary] /home/ali/Bureau/5a/MultiMod/Lost_In_Space/Projet/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:64:9-66:68
 79            android:name="unity.build-id"
 79-->[:unityLibrary] /home/ali/Bureau/5a/MultiMod/Lost_In_Space/Projet/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:65:13-42
-80            android:value="48ce4cec-de19-44fc-b1e8-5a4d6a6f0708" />
+80            android:value="8516c389-e2d1-4568-a327-5358f57cdb99" />
 80-->[:unityLibrary] /home/ali/Bureau/5a/MultiMod/Lost_In_Space/Projet/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:66:13-65
 81        <meta-data
 81-->[:unityLibrary] /home/ali/Bureau/5a/MultiMod/Lost_In_Space/Projet/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:67:9-69:36
