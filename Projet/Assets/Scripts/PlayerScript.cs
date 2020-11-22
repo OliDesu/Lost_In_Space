@@ -23,31 +23,69 @@ public class PlayerScript : MonoBehaviour
     {
         joystick = FindObjectOfType<Joystick>();
         joyButton = FindObjectOfType<JoyButtonScript>();
+
+        if (transform.localScale == new Vector3(5f, 5f, 0))
+        {
+            if (Input.deviceOrientation == DeviceOrientation.Portrait)
+            {
+                transform.localScale += new Vector3(-2f, -2f, 0);
+            }
+        }
+
+        if (transform.localScale == new Vector3(3f, 3f, 0))
+        {
+            if (Input.deviceOrientation == DeviceOrientation.LandscapeLeft)
+            {
+                transform.localScale += new Vector3(2f, 2f, 0);
+            }
+        }
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
 
+        if (transform.localScale == new Vector3(5f, 5f, 0))
+        {
+            if (Input.deviceOrientation == DeviceOrientation.Portrait)
+            {
+                transform.localScale += new Vector3(-2f, -2f, 0);
+            }
+        }
+
+        if (transform.localScale == new Vector3(3f, 3f, 0))
+        {
+            if (Input.deviceOrientation == DeviceOrientation.LandscapeLeft)
+            {
+                transform.localScale += new Vector3(2f, 2f, 0);
+            }
+        }
+
         var rigidbody = GetComponent<Rigidbody2D>();
 
 
         rigidbody.velocity = new Vector2(joystick.Horizontal * movementSpeed + Input.GetAxis("Horizontal") * movementSpeed, joystick.Vertical * movementSpeed + Input.GetAxis("Vertical") * movementSpeed);
 
-        if (rigidbody.transform.position.x >= 10f){
-            rigidbody.transform.position = new Vector2(10f, rigidbody.transform.position.y);
+        if (rigidbody.transform.position.x >= FindObjectOfType<GameManager>().rightBorder)
+        {
+            rigidbody.transform.position = new Vector2(FindObjectOfType<GameManager>().rightBorder, rigidbody.transform.position.y);
         }
 
-        if (rigidbody.transform.position.x <= -10f){
-            rigidbody.transform.position = new Vector2(-10f, rigidbody.transform.position.y);
+        if (rigidbody.transform.position.x <= FindObjectOfType<GameManager>().leftBorder)
+        {
+            rigidbody.transform.position = new Vector2(FindObjectOfType<GameManager>().leftBorder, rigidbody.transform.position.y);
         }
 
-        if (rigidbody.transform.position.y >= 5f){
-            rigidbody.transform.position = new Vector2(rigidbody.transform.position.x, 5f);
+        if (rigidbody.transform.position.y >= FindObjectOfType<GameManager>().upperBorder)
+        {
+            rigidbody.transform.position = new Vector2(rigidbody.transform.position.x, FindObjectOfType<GameManager>().upperBorder);
         }
 
-        if (rigidbody.transform.position.y <= -5f){
-            rigidbody.transform.position = new Vector2(rigidbody.transform.position.x, -5f);
+        if (rigidbody.transform.position.y <= FindObjectOfType<GameManager>().bottomBorder)
+        {
+            rigidbody.transform.position = new Vector2(rigidbody.transform.position.x, FindObjectOfType<GameManager>().bottomBorder);
         }
 
         if (!shoot && joyButton.Pressed)
@@ -93,7 +131,7 @@ public class PlayerScript : MonoBehaviour
         }
 
         alien alien = other.GetComponent<alien>();
-        
+
         if (alien != null)
         {
             FindObjectOfType<GameManager>().EndGame();

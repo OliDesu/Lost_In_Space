@@ -19,15 +19,49 @@ public class alien : MonoBehaviour
     {
         rigidbody = GetComponent<Rigidbody2D>();
         rigidbody.velocity = transform.up * -speed;
+
+        if (transform.localScale == new Vector3(5f, 5f, 0))
+        {
+            if (Input.deviceOrientation == DeviceOrientation.Portrait)
+            {
+                transform.localScale += new Vector3(-2f, -2f, 0);
+            }
+        }
+
+        if (transform.localScale == new Vector3(3f, 3f, 0))
+        {
+            if (Input.deviceOrientation == DeviceOrientation.LandscapeLeft)
+            {
+                transform.localScale += new Vector3(2f, 2f, 0);
+            }
+        }
     }
 
-    void Update() {
-        if (transform.position.y < -5.5f)
+    void Update()
+    {
+        if (transform.localScale == new Vector3(5f, 5f, 0))
+        {
+            if (Input.deviceOrientation == DeviceOrientation.Portrait)
+            {
+                transform.localScale += new Vector3(-2f, -2f, 0);
+            }
+        }
+
+        if (transform.localScale == new Vector3(3f, 3f, 0))
+        {
+            if (Input.deviceOrientation == DeviceOrientation.LandscapeLeft)
+            {
+                transform.localScale += new Vector3(2f, 2f, 0);
+            }
+        }
+
+        if (transform.position.y < FindObjectOfType<GameManager>().bottomBorder)
         {
             //FindObjectOfType<GameManager>().UpdateLives();
             //Destroy(gameObject);
             FindObjectOfType<GameManager>().EndGame();
         }
+        
     }
 
     public void TakeDamage (int damage)

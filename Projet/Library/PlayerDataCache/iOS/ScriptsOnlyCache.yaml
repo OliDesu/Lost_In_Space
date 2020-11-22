@@ -513,7 +513,7 @@ ScriptsOnlyBuild:
     className: ARPlaneManager
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 10473c585f28d4c13a9746c323679be2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
