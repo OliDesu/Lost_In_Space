@@ -7,7 +7,7 @@ public class SpawnerScript : MonoBehaviour
 
     public GameObject alien1, alien2, alien3, alien4;
     public float spawnRate = 6f;
-    float nextSpawn = 0f;
+    float nextSpawn = 6f;
     int whatSpawn;
     Vector2 spawnPos;
 
@@ -64,7 +64,7 @@ public class SpawnerScript : MonoBehaviour
                 switch (whatSpawn)
                 {
                     case 1:
-                        spawnPos = new Vector2(Random.Range(-9f, 9f), 4f);
+                        spawnPos = new Vector2(Random.Range(FindObjectOfType<GameManager>().leftBorder, FindObjectOfType<GameManager>().rightBorder), FindObjectOfType<GameManager>().upperBorder);
                         if (Physics2D.OverlapBox(spawnPos, new Vector2(0.15f,0.15f),0) == null)
                         {
                             newGo = Instantiate(alien1, spawnPos, Quaternion.identity);
@@ -72,7 +72,7 @@ public class SpawnerScript : MonoBehaviour
                         else newGo = null;
                         break;
                     case 2:
-                        spawnPos = new Vector2(Random.Range(-9f, 9f), 4f);
+                        spawnPos = new Vector2(Random.Range(FindObjectOfType<GameManager>().leftBorder, FindObjectOfType<GameManager>().rightBorder), FindObjectOfType<GameManager>().upperBorder);
                         if (Physics2D.OverlapBox(spawnPos, new Vector2(0.15f,0.15f),0) == null)
                         {
                             newGo = Instantiate(alien2, spawnPos, Quaternion.identity);
@@ -80,7 +80,7 @@ public class SpawnerScript : MonoBehaviour
                         else newGo = null;
                         break;
                     case 3:
-                        spawnPos = new Vector2(Random.Range(-9f, 9f), 4f);
+                        spawnPos = new Vector2(Random.Range(FindObjectOfType<GameManager>().leftBorder, FindObjectOfType<GameManager>().rightBorder), FindObjectOfType<GameManager>().upperBorder);
                         if (Physics2D.OverlapBox(spawnPos, new Vector2(0.15f,0.15f),0) == null)
                         {
                             newGo = Instantiate(alien3, spawnPos, Quaternion.identity);
@@ -88,7 +88,7 @@ public class SpawnerScript : MonoBehaviour
                         else newGo = null;
                         break;
                     case 4:
-                        spawnPos = new Vector2(Random.Range(-9f, 9f), 4f);
+                        spawnPos = new Vector2(Random.Range(FindObjectOfType<GameManager>().leftBorder, FindObjectOfType<GameManager>().rightBorder), FindObjectOfType<GameManager>().upperBorder);
                         if (Physics2D.OverlapBox(spawnPos, new Vector2(0.15f,0.15f),0) == null)
                         {
                             newGo = Instantiate(alien4, spawnPos, Quaternion.identity);
