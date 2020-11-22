@@ -19,16 +19,12 @@ public class Comportement : MonoBehaviour
     	transform.LookAt(targetPosition);
 	;
 	transform.position = Vector3.MoveTowards(transform.position, target.transform.position, 1f* Time.deltaTime);
-	if (Input.GetMouseButtonDown(0))
-         { 
-             Ray ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
-             RaycastHit hit;
-             if (Physics.Raycast(ray, out hit))
-              {
-                 Destroy(hit.collider.gameObject);
-              }
-          }
+	
 
-
+    }
+    
+    public void OnMouseDown()
+    {
+    	Destroy(gameObject);
     }
 }
