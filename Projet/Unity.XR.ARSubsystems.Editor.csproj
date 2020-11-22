@@ -36,12 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@3.1.5\Editor\GuidExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@3.1.5\Editor\XRReferenceImageLibraryEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@3.1.5\Editor\XRReferenceImageLibraryExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@3.1.5\Editor\SerializableGuidUtil.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@3.1.5\Editor\BuildHelper.cs" />
-     <None Include="Library\PackageCache\com.unity.xr.arsubsystems@3.1.5\Editor\Unity.XR.ARSubsystems.Editor.asmdef" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@3.1.6\Editor\GuidExtensions.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@3.1.6\Editor\XRReferenceImageLibraryEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@3.1.6\Editor\XRReferenceImageLibraryExtensions.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@3.1.6\Editor\SerializableGuidUtil.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@3.1.6\Editor\BuildHelper.cs" />
+     <None Include="Library\PackageCache\com.unity.xr.arsubsystems@3.1.6\Editor\Unity.XR.ARSubsystems.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -602,32 +602,26 @@
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
       <Project>{d3011916-d2de-d37c-2a17-80af011f1c1e}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.005.csproj">
       <Project>{c0f14ca7-687e-9089-dd55-9abd74fe5065}</Project>
       <Name>Unity.InternalAPIEditorBridge.005</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{6595f31b-d647-09e4-6afd-6de978a0d0ee}</Project>
       <Name>UnityEditor.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{d8de79b8-2c8a-6d25-5b2d-6691056e51d1}</Project>
       <Name>UnityEngine.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{2057cde1-0a73-b87a-4aa3-cd86ecb427f5}</Project>
       <Name>UnityEditor.TestRunner</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{41b9c328-5952-13ba-4eaa-879ed669c74c}</Project>
       <Name>UnityEngine.TestRunner</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

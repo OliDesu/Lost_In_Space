@@ -603,32 +603,26 @@
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
       <Project>{247cb1d8-97b9-2644-23a7-c9530a150186}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
       <Project>{45f01d82-3f44-e174-0d9d-d75f4219cf61}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{6595f31b-d647-09e4-6afd-6de978a0d0ee}</Project>
       <Name>UnityEditor.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{d8de79b8-2c8a-6d25-5b2d-6691056e51d1}</Project>
       <Name>UnityEngine.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{2057cde1-0a73-b87a-4aa3-cd86ecb427f5}</Project>
       <Name>UnityEditor.TestRunner</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{41b9c328-5952-13ba-4eaa-879ed669c74c}</Project>
       <Name>UnityEngine.TestRunner</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

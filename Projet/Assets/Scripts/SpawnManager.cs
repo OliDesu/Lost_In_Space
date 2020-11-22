@@ -26,7 +26,6 @@ public class SpawnManager : MonoBehaviour
             GameObject cube = Instantiate(objectToSpawn, placementIndicator.transform.position, placementIndicator.transform.rotation);
 
             nextSpawn = Time.time + spawnRate;
-
         }
 
         /*if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)

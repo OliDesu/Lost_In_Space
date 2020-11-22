@@ -36,31 +36,31 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ManagedReferenceImage.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCorePlaneProvider.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ImageConversionJobs.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCoreImageTrackingProvider.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\NativeView.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCorePermissionManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\Depth\ARCoreXRDepthSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCoreFaceRegion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCoreSessionSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCoreAnchorSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCoreLoaderConstants.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCoreLoader.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCoreLoaderSettings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCoreFaceRegionData.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCoreImageDatabase.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCoreEnvironmentProbeSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCoreRaycastSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\Input\InputLayoutLoader.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\Assembly.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ArPrestoApi.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCorePromise.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCoreCameraSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\ARCoreFaceSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\RcoApi.cs" />
-     <None Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Runtime\Unity.XR.ARCore.asmdef" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ManagedReferenceImage.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCorePlaneProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ImageConversionJobs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCoreImageTrackingProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\NativeView.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCorePermissionManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\Depth\ARCoreXRDepthSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCoreFaceRegion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCoreSessionSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCoreAnchorSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCoreLoaderConstants.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCoreLoader.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCoreLoaderSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCoreFaceRegionData.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCoreImageDatabase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCoreEnvironmentProbeSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCoreRaycastSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\Input\InputLayoutLoader.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\Assembly.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ArPrestoApi.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCorePromise.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCoreCameraSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\ARCoreFaceSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\RcoApi.cs" />
+     <None Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Runtime\Unity.XR.ARCore.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -609,22 +609,18 @@
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
       <Project>{d3011916-d2de-d37c-2a17-80af011f1c1e}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
       <Project>{a980e87b-99ae-97ac-8960-ec2e0cee008a}</Project>
       <Name>Unity.XR.Management</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{6595f31b-d647-09e4-6afd-6de978a0d0ee}</Project>
       <Name>UnityEditor.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{d8de79b8-2c8a-6d25-5b2d-6691056e51d1}</Project>
       <Name>UnityEngine.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
