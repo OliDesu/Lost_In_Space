@@ -992,6 +992,8 @@ MonoBehaviour:
   alien2: {fileID: 8854620069934341311, guid: bdf36b42bd83ca6309dae0d9f6c212d8, type: 3}
   alien3: {fileID: 8306669535723307922, guid: 0be383cfb7d6f838f905125f9090ddf7, type: 3}
   alien4: {fileID: 8937731062860704425, guid: a7225a938d4f9e213b6bf734486a8fac, type: 3}
+  slowAlien: {fileID: 7063560702268850055, guid: 19a4ed1947450430c9554d741ad88254, type: 3}
+  destroyRandom: {fileID: 5376275394703503949, guid: 02878c9e6c6d74886819ff109b55012f, type: 3}
   spawnRate: 6
 --- !u!4 &2104783097
 Transform:

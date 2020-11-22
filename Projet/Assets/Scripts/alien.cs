@@ -9,9 +9,15 @@ public class alien : MonoBehaviour
 
     float speed = 0.4f;
 
+    public bool isSlowed = false;
+    public bool alreadySlowed = false;
+    public bool stopSlow = false;
+
     Rigidbody2D rigidbody;
 
     public GameObject speedBonus;
+
+    float bonusTime = 10.0f;
 
 
     // Start is called before the first frame update
@@ -19,9 +25,29 @@ public class alien : MonoBehaviour
     {
         rigidbody = GetComponent<Rigidbody2D>();
         rigidbody.velocity = transform.up * -speed;
+
     }
 
     void Update() {
+
+        if(!alreadySlowed){
+            if(isSlowed){
+              speed -= 0.2f;
+              rigidbody.velocity = transform.up * -speed;
+              alreadySlowed = true;
+            }
+        }
+
+        else{
+          if(stopSlow){
+            isSlowed = false;
+            speed += 0.2f;
+            rigidbody.velocity = transform.up * -speed;
+            alreadySlowed = false;
+          }
+        }
+
+
         if (transform.position.y < -5.5f)
         {
             //FindObjectOfType<GameManager>().UpdateLives();
@@ -49,12 +75,17 @@ public class alien : MonoBehaviour
         {
             Vector2 pos = rigidbody.position;
             Instantiate(speedBonus, pos, Quaternion.identity);
+
         }
+        FindObjectOfType<AlienDestroyedSound>().PlayAlienDestroyedSound();
         Destroy(gameObject);
+
     }
 
     public void Score()
     {
         FindObjectOfType<GameManager>().UpdateScore();
     }
+
+
 }
