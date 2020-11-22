@@ -36,68 +36,68 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARPoseDriver.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARFacesChangedEventArgs.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\PlaneDetectionModeMaskAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARParticipantManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARRaycastManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\AREnvironmentProbePlacementType.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARSessionState.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARTrackedImagesChangedEventArgs.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\TransformExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARTrackable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARPlaneManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARReferencePoint.deprecated.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARPointCloudChangedEventArgs.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARAnchor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARPointCloudUpdatedEventArgs.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARPlane.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARTrackableManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARTextureInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\PoseExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARFace.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\AREnvironmentProbeManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARAnchorsChangedEventArgs.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARParticipantsChangedEventArgs.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARPlaneMeshGenerators.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARParticipant.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARCameraFrameEventArgs.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARPlaneMeshVisualizer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARBackgroundRendererFeature.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AssemblyInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARReferencePointsChangedEventArgs.deprecated.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARPointCloud.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\SubsystemLifecycleManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARReferencePointManager.deprecated.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\AREnvironmentProbesChangedEvent.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARFaceMeshVisualizer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\TrackableCollection.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\MutableRuntimeReferenceImageLibraryExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARTrackedImageManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARPointCloudParticleVisualizer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARSession.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARAnchorManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARTrackedImage.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\MeshQueue.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARMeshesChangedEventArgs.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARCameraManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARLightEstimationData.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARFaceManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARPointCloudManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARPlanesChangedEventArgs.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARSessionOrigin.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARPointCloudMeshVisualizer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARInputManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARMeshManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARSessiontateChangedEventArgs.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARUpdateOrder.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARCameraBackground.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\AREnvironmentProbe.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARRaycastHit.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\IRaycaster.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARPlaneBoundaryChangedEventArgs.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\AR\ARFaceUpdatedEventArgs.cs" />
-     <None Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Runtime\Unity.XR.ARFoundation.asmdef" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARPoseDriver.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARFacesChangedEventArgs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\PlaneDetectionModeMaskAttribute.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARParticipantManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARRaycastManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\AREnvironmentProbePlacementType.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARSessionState.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARTrackedImagesChangedEventArgs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\TransformExtensions.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARTrackable.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARPlaneManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARReferencePoint.deprecated.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARPointCloudChangedEventArgs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARAnchor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARPointCloudUpdatedEventArgs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARPlane.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARTrackableManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARTextureInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\PoseExtensions.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARFace.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\AREnvironmentProbeManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARAnchorsChangedEventArgs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARParticipantsChangedEventArgs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARPlaneMeshGenerators.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARParticipant.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARCameraFrameEventArgs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARPlaneMeshVisualizer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARBackgroundRendererFeature.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARReferencePointsChangedEventArgs.deprecated.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARPointCloud.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\SubsystemLifecycleManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARReferencePointManager.deprecated.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\AREnvironmentProbesChangedEvent.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARFaceMeshVisualizer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\TrackableCollection.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\MutableRuntimeReferenceImageLibraryExtensions.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARTrackedImageManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARPointCloudParticleVisualizer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARSession.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARAnchorManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARTrackedImage.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\MeshQueue.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARMeshesChangedEventArgs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARCameraManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARLightEstimationData.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARFaceManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARPointCloudManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARPlanesChangedEventArgs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARSessionOrigin.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARPointCloudMeshVisualizer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARInputManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARMeshManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARSessiontateChangedEventArgs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARUpdateOrder.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARCameraBackground.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\AREnvironmentProbe.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARRaycastHit.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\IRaycaster.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARPlaneBoundaryChangedEventArgs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\AR\ARFaceUpdatedEventArgs.cs" />
+     <None Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Runtime\Unity.XR.ARFoundation.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -646,27 +646,22 @@
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
       <Project>{d3011916-d2de-d37c-2a17-80af011f1c1e}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
       <Project>{a980e87b-99ae-97ac-8960-ec2e0cee008a}</Project>
       <Name>Unity.XR.Management</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
       <Project>{45f01d82-3f44-e174-0d9d-d75f4219cf61}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{6595f31b-d647-09e4-6afd-6de978a0d0ee}</Project>
       <Name>UnityEditor.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{d8de79b8-2c8a-6d25-5b2d-6691056e51d1}</Project>
       <Name>UnityEngine.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -36,23 +36,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\NoniOSBuildProcessor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\ARKitSettings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\ARKitReferenceImageLibraryBuildProcessor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\ARKitPackageMetadata.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\LibUtil.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\ARKitSettingsProvider.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\XcodeAssetCatalog.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\ARKitLoaderBuildProcessor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\ARKitBuildProcessor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\ARReferenceImage.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\Assembly.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\ARResourceGroup.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\Json.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\GuidExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\ARResource.cs" />
-     <None Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\Unity.XR.ARKit.Editor.asmdef" />
-     <None Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Editor\csc.rsp" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\NoniOSBuildProcessor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\ARKitSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\ARKitReferenceImageLibraryBuildProcessor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\ARKitPackageMetadata.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\LibUtil.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\ARKitSettingsProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\XcodeAssetCatalog.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\ARKitLoaderBuildProcessor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\ARKitBuildProcessor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\ARReferenceImage.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\Assembly.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\ARResourceGroup.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\Json.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\GuidExtensions.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\ARResource.cs" />
+     <None Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\Unity.XR.ARKit.Editor.asmdef" />
+     <None Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Editor\csc.rsp" />
     <Reference Include="UnityEngine">
         <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -619,47 +619,38 @@
     <ProjectReference Include="Unity.XR.ARKit.csproj">
       <Project>{cf53b90c-7d7f-385f-0bd6-2dbdec91624f}</Project>
       <Name>Unity.XR.ARKit</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
       <Project>{d3011916-d2de-d37c-2a17-80af011f1c1e}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.Editor.csproj">
       <Project>{56c1f292-0091-4c7c-f892-cc895b309aca}</Project>
       <Name>Unity.XR.ARSubsystems.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
       <Project>{a980e87b-99ae-97ac-8960-ec2e0cee008a}</Project>
       <Name>Unity.XR.Management</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
       <Project>{a7a84edf-558c-18bc-2cbb-cf756d6e3642}</Project>
       <Name>Unity.XR.Management.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{6595f31b-d647-09e4-6afd-6de978a0d0ee}</Project>
       <Name>UnityEditor.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{d8de79b8-2c8a-6d25-5b2d-6691056e51d1}</Project>
       <Name>UnityEngine.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{2057cde1-0a73-b87a-4aa3-cd86ecb427f5}</Project>
       <Name>UnityEditor.TestRunner</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{41b9c328-5952-13ba-4eaa-879ed669c74c}</Project>
       <Name>UnityEngine.TestRunner</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

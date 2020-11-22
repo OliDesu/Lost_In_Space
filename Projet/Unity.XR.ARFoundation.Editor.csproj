@@ -36,11 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Editor\PlaneDetectionModeAttributeDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Editor\ARSceneValidator.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Editor\ARCameraBackgroundEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Editor\SceneUtils.cs" />
-     <None Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.5\Editor\Unity.XR.ARFoundation.Editor.asmdef" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Editor\PlaneDetectionModeAttributeDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Editor\ARSceneValidator.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Editor\ARCameraBackgroundEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Editor\SceneUtils.cs" />
+     <None Include="Library\PackageCache\com.unity.xr.arfoundation@3.1.6\Editor\Unity.XR.ARFoundation.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -601,37 +601,30 @@
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
       <Project>{bb96ac81-ad38-6632-37ae-0b0c20094f56}</Project>
       <Name>Unity.XR.ARFoundation</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
       <Project>{d3011916-d2de-d37c-2a17-80af011f1c1e}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
       <Project>{45f01d82-3f44-e174-0d9d-d75f4219cf61}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{6595f31b-d647-09e4-6afd-6de978a0d0ee}</Project>
       <Name>UnityEditor.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{d8de79b8-2c8a-6d25-5b2d-6691056e51d1}</Project>
       <Name>UnityEngine.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{2057cde1-0a73-b87a-4aa3-cd86ecb427f5}</Project>
       <Name>UnityEditor.TestRunner</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{41b9c328-5952-13ba-4eaa-879ed669c74c}</Project>
       <Name>UnityEngine.TestRunner</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

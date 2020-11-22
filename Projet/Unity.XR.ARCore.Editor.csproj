@@ -36,12 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Editor\ARCoreSettingsProvider.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Editor\ARCoreBuildProcessor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Editor\ARCoreSettings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Editor\ARCorePackageMetadata.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Editor\ARCoreLoaderBuildProcessor.cs" />
-     <None Include="Library\PackageCache\com.unity.xr.arcore@3.1.7\Editor\Unity.XR.ARCore.Editor.asmdef" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Editor\ARCoreSettingsProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Editor\ARCoreBuildProcessor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Editor\ARCoreSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Editor\ARCorePackageMetadata.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Editor\ARCoreLoaderBuildProcessor.cs" />
+     <None Include="Library\PackageCache\com.unity.xr.arcore@3.1.8\Editor\Unity.XR.ARCore.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -602,47 +602,38 @@
     <ProjectReference Include="Unity.XR.ARCore.csproj">
       <Project>{7b787f22-9f2d-32e0-556d-8b375ba0861e}</Project>
       <Name>Unity.XR.ARCore</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
       <Project>{d3011916-d2de-d37c-2a17-80af011f1c1e}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.Editor.csproj">
       <Project>{56c1f292-0091-4c7c-f892-cc895b309aca}</Project>
       <Name>Unity.XR.ARSubsystems.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
       <Project>{a980e87b-99ae-97ac-8960-ec2e0cee008a}</Project>
       <Name>Unity.XR.Management</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
       <Project>{a7a84edf-558c-18bc-2cbb-cf756d6e3642}</Project>
       <Name>Unity.XR.Management.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{6595f31b-d647-09e4-6afd-6de978a0d0ee}</Project>
       <Name>UnityEditor.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{d8de79b8-2c8a-6d25-5b2d-6691056e51d1}</Project>
       <Name>UnityEngine.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{2057cde1-0a73-b87a-4aa3-cd86ecb427f5}</Project>
       <Name>UnityEditor.TestRunner</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{41b9c328-5952-13ba-4eaa-879ed669c74c}</Project>
       <Name>UnityEngine.TestRunner</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

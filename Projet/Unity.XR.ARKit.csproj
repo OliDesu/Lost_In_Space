@@ -36,41 +36,41 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\PlaneTracking\ARKitXRPlaneSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARKitCameraSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARWorldMappingStatus.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARKitApi.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\Depth\ARKitXRDepthSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\SerializedARCollaborationData.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARCoachingGoal.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\Participant\ARKitParticipantSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\NSMutableData.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARWorldMap.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ImageTracking\ARKitImageTrackingProvider.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARCollaborationDataBuilder.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARCollaborationData.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ImageTracking\ARKitImageDatabase.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARKitAnchorSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARKitLoader.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARCoachingOverlayTransition.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARKitRaycastSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ImageTracking\ManagedReferenceImage.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARWorldMapRequest.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\SetReferenceLibraryResult.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\NativeChanges.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARWorldMapRequestStatus.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\Input\InputLayoutLoader.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\Assembly.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\NSData.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARKitSessionSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\OSVersion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\EnvironmentProbeApi.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARKitLoaderSettings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARCollaborationDataPriority.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARKitLoaderConstants.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\ARKitEnvironmentProbeSubsystem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\MemoryLayout.cs" />
-     <None Include="Library\PackageCache\com.unity.xr.arkit@3.1.7\Runtime\Unity.XR.ARKit.asmdef" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\PlaneTracking\ARKitXRPlaneSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARKitCameraSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARWorldMappingStatus.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARKitApi.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\Depth\ARKitXRDepthSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\SerializedARCollaborationData.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARCoachingGoal.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\Participant\ARKitParticipantSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\NSMutableData.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARWorldMap.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ImageTracking\ARKitImageTrackingProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARCollaborationDataBuilder.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARCollaborationData.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ImageTracking\ARKitImageDatabase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARKitAnchorSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARKitLoader.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARCoachingOverlayTransition.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARKitRaycastSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ImageTracking\ManagedReferenceImage.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARWorldMapRequest.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\SetReferenceLibraryResult.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\NativeChanges.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARWorldMapRequestStatus.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\Input\InputLayoutLoader.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\Assembly.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\NSData.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARKitSessionSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\OSVersion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\EnvironmentProbeApi.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARKitLoaderSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARCollaborationDataPriority.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARKitLoaderConstants.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\ARKitEnvironmentProbeSubsystem.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\MemoryLayout.cs" />
+     <None Include="Library\PackageCache\com.unity.xr.arkit@3.1.8\Runtime\Unity.XR.ARKit.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/media/willeiam/libre/Unity/2020.1.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -619,22 +619,18 @@
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
       <Project>{d3011916-d2de-d37c-2a17-80af011f1c1e}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
       <Project>{a980e87b-99ae-97ac-8960-ec2e0cee008a}</Project>
       <Name>Unity.XR.Management</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{6595f31b-d647-09e4-6afd-6de978a0d0ee}</Project>
       <Name>UnityEditor.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{d8de79b8-2c8a-6d25-5b2d-6691056e51d1}</Project>
       <Name>UnityEngine.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
