@@ -9,6 +9,10 @@ public class alien : MonoBehaviour
 
     float speed = 0.4f;
 
+    public bool isSlowed = false;
+    public bool alreadySlowed = false;
+    public bool stopSlow = false;
+
     Rigidbody2D rigidbody;
 
     public GameObject speedBonus;
@@ -55,13 +59,30 @@ public class alien : MonoBehaviour
             }
         }
 
+        if(!alreadySlowed){
+            if(isSlowed){
+              speed -= 0.2f;
+              rigidbody.velocity = transform.up * -speed;
+              alreadySlowed = true;
+            }
+        }
+
+        else{
+          if(stopSlow){
+            isSlowed = false;
+            speed += 0.2f;
+            rigidbody.velocity = transform.up * -speed;
+            alreadySlowed = false;
+          }
+        }
+
         if (transform.position.y < FindObjectOfType<GameManager>().bottomBorder)
         {
             //FindObjectOfType<GameManager>().UpdateLives();
             //Destroy(gameObject);
             FindObjectOfType<GameManager>().EndGame();
         }
-        
+
     }
 
     public void TakeDamage (int damage)
@@ -84,6 +105,7 @@ public class alien : MonoBehaviour
             Vector2 pos = rigidbody.position;
             Instantiate(speedBonus, pos, Quaternion.identity);
         }
+        FindObjectOfType<AlienDestroyedSound>().PlayAlienDestroyedSound();
         Destroy(gameObject);
     }
 
