@@ -9,7 +9,7 @@ public class SpawnManager : MonoBehaviour
     public PlacementIndicator placementIndicator;
 
     public float spawnRate = 6f;
-    float nextSpawn = 0f;
+    float nextSpawn = 6f;
     // Start is called before the first frame update
     void Start()
     {
