@@ -9,15 +9,16 @@ public class SpawnManager : MonoBehaviour
     public PlacementIndicator placementIndicator;
 
     public float spawnRate = 10f;
-    float nextSpawn = 6f;
+    float nextSpawn;
     // Start is called before the first frame update
     void Start()
     {
+        nextSpawn = 10f;
         placementIndicator = FindObjectOfType<PlacementIndicator>();
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
 
         if (Time.time > nextSpawn)
@@ -26,6 +27,7 @@ public class SpawnManager : MonoBehaviour
             for (int i = 0; i < 4 ;i++){               
                 GameObject cube = Instantiate(objectToSpawn, placement, placementIndicator.transform.rotation);
                 placement.x = placement.x + i *2;
+                GameManager.cubes.Add(cube);
             }
            
 
