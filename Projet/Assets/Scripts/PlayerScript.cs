@@ -96,7 +96,7 @@ public class PlayerScript : MonoBehaviour
             rigidbody.transform.position = new Vector2(rigidbody.transform.position.x, FindObjectOfType<GameManager>().bottomBorder);
         }
 
-        if (!shoot && joyButton.Pressed)
+        if ((!shoot && joyButton.Pressed) || (!shoot && Input.GetAxis("Xbox_RB") != 0))
         {
             shoot = true;
             if (Time.time > nextShot)
