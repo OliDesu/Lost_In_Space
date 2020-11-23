@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Comportement : MonoBehaviour
 {
@@ -17,9 +18,11 @@ public class Comportement : MonoBehaviour
     {
     	Vector3 targetPosition = new Vector3(target.transform.position.x,transform.position.y,target.transform.position.z);
     	transform.LookAt(targetPosition);
-	;
-	transform.position = Vector3.MoveTowards(transform.position, target.transform.position, 1f* Time.deltaTime);
-	
+    	transform.position = Vector3.MoveTowards(transform.position, target.transform.position, 1f* Time.deltaTime);
+	    if(targetPosition == transform.position){
+            GameManager.RestartAR();
+            SceneManager.LoadScene("Game Menu");
+        }
 
     }
     

@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public static List<GameObject> speedBonus = new List<GameObject>();
     public static List<GameObject> slowAliens = new List<GameObject>();
     public static List<GameObject> destroyRandom = new List<GameObject>();
+    public static List<GameObject> cubes = new List<GameObject>();
 
     public AudioSource EndAudioSource;
 
@@ -97,5 +98,14 @@ public class GameManager : MonoBehaviour
             Destroy(alien);
         }
         SceneManager.LoadScene("Game Over");
+    }
+
+    public static void  RestartAR(){
+        foreach (GameObject cube in cubes)
+        {
+            Destroy(cube);
+            Debug.Log("CC LA STREET");
+        }
+        SceneManager.LoadScene("Game Menu");
     }
 }
