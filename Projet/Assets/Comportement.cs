@@ -25,6 +25,7 @@ public class Comportement : MonoBehaviour
     
     public void OnMouseDown()
     {
+        FindObjectOfType<GameManager>().UpdateScore();
     	Destroy(gameObject);
     }
 }
