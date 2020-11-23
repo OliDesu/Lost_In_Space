@@ -335,6 +335,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Game Menu.unity",
                 "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/Game Over.unity"
             ]
@@ -347,6 +348,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Game Menu.unity",
                 "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/Game Over.unity"
             ]
@@ -385,6 +387,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Game Menu.unity",
                 "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/Game Over.unity"
             ]
@@ -435,6 +438,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Game Menu.unity",
                 "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/SampleScene.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/Game Over.unity"
             ]
