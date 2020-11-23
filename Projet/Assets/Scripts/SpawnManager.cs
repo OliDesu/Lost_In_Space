@@ -8,8 +8,8 @@ public class SpawnManager : MonoBehaviour
     public GameObject objectToSpawn;
     public PlacementIndicator placementIndicator;
 
-    public float spawnRate = 6f;
-    float nextSpawn = 0f;
+    public float spawnRate = 10f;
+    float nextSpawn = 6f;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,8 +22,12 @@ public class SpawnManager : MonoBehaviour
 
         if (Time.time > nextSpawn)
         {
-
-            GameObject cube = Instantiate(objectToSpawn, placementIndicator.transform.position, placementIndicator.transform.rotation);
+            Vector3 placement = placementIndicator.transform.position;
+            for (int i = 0; i < 4 ;i++){               
+                GameObject cube = Instantiate(objectToSpawn, placement, placementIndicator.transform.rotation);
+                placement.x = placement.x + i *2;
+            }
+           
 
             nextSpawn = Time.time + spawnRate;
         }
