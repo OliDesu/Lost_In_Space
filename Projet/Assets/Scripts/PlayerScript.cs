@@ -17,10 +17,6 @@ public class PlayerScript : MonoBehaviour
 
     float bonusTimeSpeed = 10.0f;
 
-    float bonusTimeSlowAliens = 10.0f;
-
-    bool allSlowed = false;
-
     protected bool shoot;
 
     public AudioSource BonusAudioSource;
@@ -122,7 +118,8 @@ public class PlayerScript : MonoBehaviour
         }
 
         //SLOW ALIENS WHEN BONUS IS PICKED
-        if (allSlowed == true)
+
+        /*if (allSlowed == true)
         {
           foreach(GameObject a in GameManager.aliens){
             if(a.GetComponent<alien>()!=null){
@@ -145,7 +142,7 @@ public class PlayerScript : MonoBehaviour
               allSlowed = false;
               SpawnerScript.slowBonusSpawned = false;
             }
-        }
+        }*/
 
     }
 
@@ -173,7 +170,7 @@ public class PlayerScript : MonoBehaviour
             if (slowAlien != null)
             {
               //Slow every alien
-              allSlowed = true;
+              FindObjectOfType<GameManager>().isSlowed = true;
               BonusAudioSource.Play();
               slowAlien.PickUp();
             }
@@ -186,18 +183,19 @@ public class PlayerScript : MonoBehaviour
 
             if (destroyRandom != null)
             {
-              int i = 0;
-              while(i < 10){
-                  alien a = FindObjectOfType<alien>();
-                  if(a.GetComponent<alien>()!=null){
-                    a.Die();
-                  }
-                i = i+1;
+
+              int nbDestroy = Random.Range(1, 5);
+
+              for(int i = 0; i < nbDestroy; i++){
+                int d = Random.Range(1,GameManager.aliens.Count);
+                alien a = GameManager.aliens[d].GetComponent<alien>();
+                a.Die();
+
               }
 
-              SpawnerScript.destroyBonusSpawned = false;
               BonusAudioSource.Play();
               destroyRandom.PickUp();
+              SpawnerScript.destroyBonusSpawned = false;
             }
 
         }

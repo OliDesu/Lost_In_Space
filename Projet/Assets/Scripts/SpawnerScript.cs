@@ -127,7 +127,8 @@ public class SpawnerScript : MonoBehaviour
                           else newGo = null;
                           break;
                         }
-                        else newGo = null;                          break;
+                        else newGo = null;
+                        break;
                     default:
                         newGo = null;
                         break;
