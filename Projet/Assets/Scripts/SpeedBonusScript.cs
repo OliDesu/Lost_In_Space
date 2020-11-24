@@ -15,6 +15,22 @@ Rigidbody2D rigidbody;
   {
       rigidbody = GetComponent<Rigidbody2D>();
       rigidbody.velocity = transform.up * -speed;
+
+      if (transform.localScale == new Vector3(0.6f, 0.6f, 0))
+      {
+          if (Input.deviceOrientation == DeviceOrientation.Portrait)
+          {
+              transform.localScale += new Vector3(-0.3f, -0.3f, 0);
+          }
+      }
+
+      if (transform.localScale == new Vector3(0.3f, 0.3f, 0))
+      {
+          if (Input.deviceOrientation == DeviceOrientation.LandscapeLeft)
+          {
+              transform.localScale += new Vector3(0.3f, 0.3f, 0);
+          }
+      }
   }
 
   public void PickUp()
@@ -23,5 +39,21 @@ Rigidbody2D rigidbody;
   }
 
   void Update() {
+
+    if (transform.localScale == new Vector3(0.6f, 0.6f, 0))
+    {
+        if (Input.deviceOrientation == DeviceOrientation.Portrait)
+        {
+            transform.localScale += new Vector3(-0.3f, -0.3f, 0);
+        }
+    }
+
+    if (transform.localScale == new Vector3(0.3f, 0.3f, 0))
+    {
+        if (Input.deviceOrientation == DeviceOrientation.LandscapeLeft)
+        {
+            transform.localScale += new Vector3(0.3f, 0.3f, 0);
+        }
+    }
   }
 }
