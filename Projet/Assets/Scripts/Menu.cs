@@ -17,7 +17,7 @@ public class Menu : MonoBehaviour
 
     public void ReturnToMainMenu()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("Game Menu");
     }
 
     public void PlayARGame()

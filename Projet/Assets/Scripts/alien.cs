@@ -60,7 +60,6 @@ public class alien : MonoBehaviour
 
         if(!alreadySlowed){
           if(FindObjectOfType<GameManager>().isSlowed){
-              Debug.Log(alreadySlowed);
               speed -= 0.2f;
               rigidbody.velocity = transform.up * -speed;
               alreadySlowed = true;
