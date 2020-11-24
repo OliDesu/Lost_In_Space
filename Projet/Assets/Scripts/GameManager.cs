@@ -23,6 +23,9 @@ public class GameManager : MonoBehaviour
     public float upperBorder;
     public float bottomBorder;
 
+    public bool isSlowed = false;
+    float bonusTimeSlowAliens = 10.0f;
+
     public void Start()
     {
         score = 0;
@@ -61,6 +64,18 @@ public class GameManager : MonoBehaviour
         rightBorder = screenTopRight.x;
         bottomBorder = screenBottomLeft.y;
         upperBorder = screenTopRight.y;
+
+        if (isSlowed){
+
+          bonusTimeSlowAliens -= 3*Time.deltaTime;
+
+          if (bonusTimeSlowAliens <= 0.0f){
+            isSlowed = false;
+            SpawnerScript.slowBonusSpawned = false;
+
+          }
+
+        }
     }
 
     public void UpdateScore()
