@@ -112,6 +112,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(alien);
         }
+        PlayerPrefs.SetInt("Score", score);
         SceneManager.LoadScene("Game Over");
     }
 
@@ -119,7 +120,6 @@ public class GameManager : MonoBehaviour
         foreach (GameObject cube in cubes)
         {
             Destroy(cube);
-            Debug.Log("CC LA STREET");
         }
         SceneManager.LoadScene("Game Menu");
     }
