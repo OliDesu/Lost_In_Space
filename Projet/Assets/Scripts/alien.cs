@@ -81,6 +81,12 @@ public class alien : MonoBehaviour
             FindObjectOfType<GameManager>().EndGame();
         }
 
+        if (transform.position.x < FindObjectOfType<GameManager>().leftBorder || transform.position.x > FindObjectOfType<GameManager>().rightBorder)
+        {
+            GameManager.aliens.Remove(gameObject);
+            Destroy(gameObject);
+        }
+
     }
 
     public void TakeDamage (int damage)

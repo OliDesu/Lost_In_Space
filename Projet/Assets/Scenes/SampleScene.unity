@@ -251,7 +251,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 401857565}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ffe004512fcb480ca2260e40cb77846, type: 3}
+  m_Script: {fileID: 11500000, guid: c7e261a274b16196f8b477285b8b87fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 401857568}
@@ -932,11 +932,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2028542613}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8dd6e030bd60152fa2f6578975fdcbc, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e2b99f89ae1194bcb90cb96c7d778b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EndAudioSource: {fileID: 0}
-  leftBorder: 0
-  rightBorder: 0
-  upperBorder: 0
-  bottomBorder: 0
