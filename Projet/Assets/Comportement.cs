@@ -20,15 +20,15 @@ public class Comportement : MonoBehaviour
     	transform.LookAt(targetPosition);
     	transform.position = Vector3.MoveTowards(transform.position, target.transform.position, 1f* Time.deltaTime);
 	    if(targetPosition == transform.position){
-            GameManager.RestartAR();
-            SceneManager.LoadScene("Game Menu");
+            ARGameManager.RestartAR();
         }
 
     }
     
     public void OnMouseDown()
     {
-        FindObjectOfType<GameManager>().UpdateScore();
+        FindObjectOfType<ARGameManager>().UpdateScore();
+        FindObjectOfType<AlienDestroyedSound>().PlayAlienDestroyedSound();
     	Destroy(gameObject);
     }
 }

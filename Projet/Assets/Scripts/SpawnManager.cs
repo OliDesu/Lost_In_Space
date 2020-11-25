@@ -27,7 +27,7 @@ public class SpawnManager : MonoBehaviour
             for (int i = 0; i < 4 ;i++){               
                 GameObject cube = Instantiate(objectToSpawn, placement, placementIndicator.transform.rotation);
                 placement.x = placement.x + i *2;
-                GameManager.cubes.Add(cube);
+                ARGameManager.cubes.Add(cube);
             }
            
 
