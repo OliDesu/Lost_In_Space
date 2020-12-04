@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 10b79dfb7b353a35bb6ad16e0d07acae
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - alien1: {fileID: 1335895277788631369, guid: cf15ed03a6d00af2db640808209a4e94, type: 3}
+  - alien2: {fileID: 8854620069934341311, guid: bdf36b42bd83ca6309dae0d9f6c212d8, type: 3}
+  - alien3: {fileID: 8535802308729438874, guid: 0be383cfb7d6f838f905125f9090ddf7, type: 3}
+  - alien4: {fileID: 8937731062860704425, guid: a7225a938d4f9e213b6bf734486a8fac, type: 3}
+  - slowAlien: {fileID: 5985959845634676024, guid: 178c174dda88a4480a8aa52c4e605fa9, type: 3}
+  - destroyRandom: {fileID: 4126113646010476087, guid: 36835c6706abc483d862244f8f316a6b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
