@@ -430,7 +430,6 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
-  m_UseLocal: 0
 --- !u!114 &11440456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -765,11 +764,7 @@ MonoBehaviour:
   logLevel: 1
   ignoreGlobalLogLevel: 0
   playbackOnlyWhenEnabled: 0
-  playDelayMs: -1
-  playbackDelaySettings:
-    MinDelaySoft: 200
-    MaxDelaySoft: 400
-    MaxDelayHard: 1000
+  playDelayMs: 200
 --- !u!114 &114170008920511210
 MonoBehaviour:
   m_ObjectHideFlags: 1

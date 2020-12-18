@@ -1,5 +1,10 @@
 Photon Voice 2 Change Log
 
+v2.22.3 (December 10th, 2020)
+   PUN2: v2.26 (1bb4b17)
+   PhotonVoiceApi: revision 5901
+   CHANGED: skipping linking incoming remote streams with codec other than opus.
+
 v2.22.2 (December 2nd, 2020)
    PUN2: v2.25.1 (cc3faf8)
    PhotonVoiceApi: revision 5901

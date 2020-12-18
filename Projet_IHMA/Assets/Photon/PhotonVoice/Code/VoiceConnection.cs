@@ -651,6 +651,14 @@ namespace Photon.Voice.Unity
         
         private void OnRemoteVoiceInfo(int channelId, int playerId, byte voiceId, VoiceInfo voiceInfo, ref RemoteVoiceOptions options)
         {
+            if (voiceInfo.Codec != Codec.AudioOpus)
+            {
+                if (this.Logger.IsDebugEnabled)
+                {
+                    this.Logger.LogInfo("OnRemoteVoiceInfo skipped as coded {4} is not Opus, channel {0} player {1} voice #{2} userData {3}", channelId, playerId, voiceId, voiceInfo.UserData, voiceInfo.Codec);
+                }
+                return;
+            }
             if (this.Logger.IsInfoEnabled)
             {
                 this.Logger.LogInfo("OnRemoteVoiceInfo channel {0} player {1} voice #{2} userData {3}", channelId, playerId, voiceId, voiceInfo.UserData);

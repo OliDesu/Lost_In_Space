@@ -345,7 +345,7 @@ namespace Photon.Pun
                 }
             }
 
-            if (amMasterClient)
+            if (amMasterClient && reusableIntList.Count > 0)
             {
                 PhotonNetwork.OwnershipUpdate(reusableIntList.ToArray(), newPlayer.ActorNumber);
             }
